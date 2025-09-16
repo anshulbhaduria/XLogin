@@ -24,7 +24,7 @@ function App() {
         {error && <p>{error}</p>}
         {isCorrect ? (
           <div>
-            <p>Welcome, User</p>
+            <p>Welcome, user!</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit}>
